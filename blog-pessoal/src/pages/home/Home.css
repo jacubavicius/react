@@ -1,17 +1,7 @@
 * {
   background-color: #fce7d2;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.container {
-  display: flex;
-  flex-flow: row;
-  justify-content: center;
-  align-items: center;
-}
-
-.p-30 {
-  padding: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .titulo {
@@ -19,13 +9,6 @@
   text-align: center;
 }
 
-.fraseInicial {
+button {
   color: #fd8086;
-}
-
-.img {
-  width: 500px;
-  height: 500px;
-  display: block;
-  margin: 0 auto;
 }

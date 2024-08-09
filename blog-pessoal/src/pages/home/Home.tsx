@@ -1,22 +1,17 @@
-import React from "react";
-import imgHome from "../../assets/home.jpg";
+import React, { useState } from 'react';
 import "./Home.css";
 
 function Home() {
+  const [loggedIn, setLoggedIn] = useState(false);
+
   return (
-    <>
-      <div className="container">
-        <div className="p-30">
-          <h1 className="titulo">Home</h1>
-          <h3 className="fraseInicial">
-            Seja bem-vinde ao meu primeiro programa com React!
-          </h3>
-        </div>
-        <div className="p-30">
-          <img src={imgHome} alt="Imagem Tela Inicial" className="img" />
-        </div>
-      </div>
-    </>
+    <div>
+      {loggedIn ? (
+        <h1 className='titulo'>Bem-vindo de volta!</h1>
+      ) : (
+        <button onClick={() => setLoggedIn(true)}>Entrar</button>
+      )}
+    </div>
   );
 }
 
