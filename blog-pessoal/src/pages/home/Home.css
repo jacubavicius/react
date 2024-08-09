@@ -1,0 +1,31 @@
+* {
+  background-color: #fce7d2;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.p-30 {
+  padding: 30px;
+}
+
+.titulo {
+  color: #eb5874;
+  text-align: center;
+}
+
+.fraseInicial {
+  color: #fd8086;
+}
+
+.img {
+  width: 500px;
+  height: 500px;
+  display: block;
+  margin: 0 auto;
+}
